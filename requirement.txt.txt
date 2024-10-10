@@ -1,0 +1,57 @@
+
+# Project Setup
+
+## Backend Setup
+
+1. **Unzip the project file** and open the command prompt (CMD).
+
+2. **Navigate to the backend directory**: 
+
+   cd backend
+
+
+3. **Install dependencies**: 
+
+   npm install
+
+
+4. **Configure environment variables .env file**: 
+   - In the backend folder, change the environment variables to match your database configuration. If you prefer not to change them, it's not necessary.
+   - The predefined database name is `fooddx`. If you change the database name, ensure to update the URI as follows:
+  
+     MONGO_URI="mongodb://localhost:27017/fooddx"
+  
+   - Do not modify any other variables .
+
+
+5. **Run the backend server**: 
+   - Ensure you are still in the backend folder. 
+   - To start the backend server, run the following command:
+  
+     npx nodemon
+  
+
+## Frontend Setup
+
+1. **Navigate to the frontend directory**:
+
+   cd frontend
+
+
+2. **Install dependencies**: 
+
+   npm install
+
+
+3. **Configure the Chatbot component**: 
+   - Replace the Google Gemini API key in the chatbot component with your own API key.
+
+4. **Run the frontend**:
+   npm run dev
+   then enter h and then enter o to open frontend in browser
+
+5. to login use path 
+    http://localhost:5173/auth/login
+    to login user 
+
+
